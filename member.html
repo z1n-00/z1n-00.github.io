@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cinema Paradiso Cafe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="icon" href="image/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+ 	<div class="row pb-5">
+			<div class="col-lg-4 col-md-2 col-sm-2 col-1" blank></div>
+ 			<div class="col-lg-4 col-md-8 col-sm-8 col-10">
+ 				<form class="shadow rounded" action="order.html" method="post"  onsubmit="return validation()" style="padding: 30px 30px 10px; margin-top: 50px;">
+ 					<div class="form-group">
+ 						<h1 style="font-size: 22px; font-family: 'Pacifico', cursive; border-radius: 3px;">Cinema<span style="background-color: #faa005; border-radius: 5px; ">Paradiso</span></h1><br>
+							
+						 <label for="inputName">User Name:</label>
+					    	<input type="text" name="name" class="form-control" id="inputName" placeholder="Your Name">
+							  
+							<label for="inputEmail">Email:</label>
+      						<input type="email" name="email" class="form-control" id="inputEmail" placeholder=" Your Email">
+    					</div>
+    					<div class="form-group">
+  							<input type="submit" name="submit" class="btn text-white" value="Login" style="background-color: #faa005;">
+  						</div>
+  						<p id="demo" style="color: red;"></p>
+  						Forgotten your password? <a href="forget.html">click here</a>
+    				</div>
+						<div class="col-lg-4 col-md-2 col-sm-2 col-1" blank></div>					
+				</form>
+			</div>
+ 			</div>
+ 		</div>
+
+
+ 	<script>
+		function validation(){
+		var name=document.getElementById('inputName').value;
+		var email=document.getElementById('inputEmail').value;
+
+		if(name=='' || email==''){
+		alert('You missed some fields or left it!');
+
+		document.getElementById('demo').innerHTML="All fields required";
+		return false;
+		}
+
+		else if(name.length<5){
+			document.getElementById('demo').innerHTML="User Name has at least 5 characters";
+			return false;
+		}
+
+		else if(email.length<15){
+			document.getElementById('demo').innerHTML="User Email has at least 15 characters";
+			return false;
+		}
+
+		else{
+		return true;
+		}
+	}
+	</script>
+
+</body>
+</html>
