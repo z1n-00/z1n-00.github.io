@@ -1,5 +1,5 @@
 ### Cinema Paradiso Caffe
-      Cinema paradiso is a website with attractive menu designs.
+      Cinema paradiso is a website with both responsive and attractive menu designs.
     
     
 ### Whole screenshots of Web Site
