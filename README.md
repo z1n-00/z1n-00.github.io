@@ -2,7 +2,7 @@
       Cinema paradiso is a website with both responsive and attractive menu designs.
     
     
-### Whole screenshots of Web Site
+### The whole screenshot of Web Site
    ![cinema-paradiso](https://user-images.githubusercontent.com/69867926/212620210-701b81e0-6b2f-4def-971b-021d3b8ac032.png)
 
 
