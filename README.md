@@ -51,7 +51,7 @@
 
 
 ### License
-   A creative commom (CC) license: You can inspire and modify it to be better attractive menu designs as you can.
+   A creative commons (CC) license: You can inspire and modify it to be better attractive menu designs as you can.
   Thanks for your time!
   
 
