@@ -1,5 +1,5 @@
 ### Cinema Paradiso Caffe
-    Cinema paradiso is a website with attractive menu designs.
+   Cinema paradiso is a website with attractive menu designs.
     
     
 ### Whole screenshots of Web Site
@@ -8,6 +8,6 @@
 
 
 ### License
-    A creative commons (CC) license: you can inspire and modify it to be better creative designs as you can imagine.
-    Thanks for time!!
+   A creative commons (CC) license: you can inspire and modify it to be better creative designs as you can imagine.
+    Thanks for your time!!
     
